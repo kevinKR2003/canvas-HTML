@@ -11,7 +11,7 @@ body {
   padding: 0;
   font-family: "Arial", sans-serif;
 }
-ul {
+.ingresos, .costos, .recursos {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #5dc52ce3; /* Color del texto del enlace */
+  color: #0f0f0fe3; /* Color del texto del enlace */
   font-weight: bold;
 }
 /* Cambios en el estilo al pasar el ratón sobre los enlaces */
