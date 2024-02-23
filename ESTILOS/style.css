@@ -1,0 +1,29 @@
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #5dc52ce3; /* Color del texto del enlace */
+  font-weight: bold;
+}
+/* Cambios en el estilo al pasar el ratón sobre los enlaces */
+a:hover {
+  color: #5dc52ce3; /* Cambia el color del texto al pasar el ratón */
+}
